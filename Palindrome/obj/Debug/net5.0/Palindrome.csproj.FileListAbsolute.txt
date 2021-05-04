@@ -1,0 +1,12 @@
+/Users/sauce/Desktop/Palindromes.Solution/Palindrome/bin/Debug/net5.0/Palindrome.deps.json
+/Users/sauce/Desktop/Palindromes.Solution/Palindrome/bin/Debug/net5.0/Palindrome.dll
+/Users/sauce/Desktop/Palindromes.Solution/Palindrome/bin/Debug/net5.0/ref/Palindrome.dll
+/Users/sauce/Desktop/Palindromes.Solution/Palindrome/bin/Debug/net5.0/Palindrome.pdb
+/Users/sauce/Desktop/Palindromes.Solution/Palindrome/obj/Debug/net5.0/Palindrome.csprojAssemblyReference.cache
+/Users/sauce/Desktop/Palindromes.Solution/Palindrome/obj/Debug/net5.0/Palindrome.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sauce/Desktop/Palindromes.Solution/Palindrome/obj/Debug/net5.0/Palindrome.AssemblyInfoInputs.cache
+/Users/sauce/Desktop/Palindromes.Solution/Palindrome/obj/Debug/net5.0/Palindrome.AssemblyInfo.cs
+/Users/sauce/Desktop/Palindromes.Solution/Palindrome/obj/Debug/net5.0/Palindrome.csproj.CoreCompileInputs.cache
+/Users/sauce/Desktop/Palindromes.Solution/Palindrome/obj/Debug/net5.0/Palindrome.dll
+/Users/sauce/Desktop/Palindromes.Solution/Palindrome/obj/Debug/net5.0/ref/Palindrome.dll
+/Users/sauce/Desktop/Palindromes.Solution/Palindrome/obj/Debug/net5.0/Palindrome.pdb
