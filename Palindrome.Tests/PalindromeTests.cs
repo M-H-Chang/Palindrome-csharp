@@ -12,11 +12,17 @@ namespace Palindrome.Test
       PalindromeWord testPalindrome = new PalindromeWord();
       Assert.AreEqual(true, testPalindrome.IsPalindrome("noon"));
     }
+    // [TestMethod]
+    // public void IsPalindrome_AWord_False()
+    // {
+    //   PalindromeWord testPalindrome = new PalindromeWord();
+    //   Assert.AreEqual(false, testPalindrome.IsPalindrome("hello"));
+    // }
     [TestMethod]
-    public void IsPalindrom_AWord_False()
+    public void ReverseWord_ReverseWordOrder_True()
     {
-      PalindromeWord testPalindrome = new PalindromeWord();
-      Assert.AreEqual(false, testPalindrome.IsPalindrome("hello"));
+      PalindromeWord testReverseWord = new PalindromeWord();
+      Assert.AreEqual("olleh", testReverseWord.ReverseWord("hello"));
     }
   }
 }
