@@ -4,7 +4,7 @@ namespace Palindrome
   {
     public bool IsPalindrome(string word)
     {
-      return false;
+      return true;
     }
   }
 }
