@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Palindrome.CLI/1.0.0": {
+        "dependencies": {
+          "Palindrome": "1.0.0"
+        },
+        "runtime": {
+          "Palindrome.CLI.dll": {}
+        }
+      },
+      "Palindrome/1.0.0": {
+        "runtime": {
+          "Palindrome.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Palindrome.CLI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Palindrome/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

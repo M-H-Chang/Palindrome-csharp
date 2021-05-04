@@ -1,8 +1,8 @@
 namespace Palindrome
 {
-  public class PalindromeWord
+  public class Word
   {
-    public string ReverseWord(string word)
+    public static string Reverse(string word)
     {
       string newString = "";
       string userInput = word;
@@ -14,16 +14,9 @@ namespace Palindrome
       }
       return newString;
     }
-    public bool IsPalindrome(string word)
+    public static bool IsPalindrome(string word)
     {
-      if (true)
-      {
-        return true;
-      }
-      else
-      {
-        return false;
-      }
+      return word == Word.Reverse(word);
     }
   }
 }

@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sauce/Desktop/Palindromes.Solution/Palindrome.CLI/Palindrome.CLI.csproj": {}
+  },
+  "projects": {
+    "/Users/sauce/Desktop/Palindromes.Solution/Palindrome.CLI/Palindrome.CLI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sauce/Desktop/Palindromes.Solution/Palindrome.CLI/Palindrome.CLI.csproj",
+        "projectName": "Palindrome.CLI",
+        "projectPath": "/Users/sauce/Desktop/Palindromes.Solution/Palindrome.CLI/Palindrome.CLI.csproj",
+        "packagesPath": "/Users/sauce/.nuget/packages/",
+        "outputPath": "/Users/sauce/Desktop/Palindromes.Solution/Palindrome.CLI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sauce/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/sauce/Desktop/Palindromes.Solution/Palindrome/Palindrome.csproj": {
+                "projectPath": "/Users/sauce/Desktop/Palindromes.Solution/Palindrome/Palindrome.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sauce/Desktop/Palindromes.Solution/Palindrome/Palindrome.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sauce/Desktop/Palindromes.Solution/Palindrome/Palindrome.csproj",
+        "projectName": "Palindrome",
+        "projectPath": "/Users/sauce/Desktop/Palindromes.Solution/Palindrome/Palindrome.csproj",
+        "packagesPath": "/Users/sauce/.nuget/packages/",
+        "outputPath": "/Users/sauce/Desktop/Palindromes.Solution/Palindrome/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sauce/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

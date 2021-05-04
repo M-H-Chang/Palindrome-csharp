@@ -1,16 +1,14 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Palindrome;
 
 namespace Palindrome.Test
 {
   [TestClass]
-  public class PalindromeWordTests
+  public class WordTests
   {
     [TestMethod]
     public void IsPalindrome_AWord_True()
     {
-      PalindromeWord testPalindrome = new PalindromeWord();
-      Assert.AreEqual(true, testPalindrome.IsPalindrome("noon"));
+      Assert.AreEqual(true, Word.IsPalindrome("noon"));
     }
     // [TestMethod]
     // public void IsPalindrome_AWord_False()
@@ -21,8 +19,7 @@ namespace Palindrome.Test
     [TestMethod]
     public void ReverseWord_ReverseWordOrder_True()
     {
-      PalindromeWord testReverseWord = new PalindromeWord();
-      Assert.AreEqual("olleh", testReverseWord.ReverseWord("hello"));
+      Assert.AreEqual("olleh", Word.Reverse("hello"));
     }
   }
 }
