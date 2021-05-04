@@ -10,7 +10,13 @@ namespace Palindrome.Test
     public void IsPalindrome_AWord_True()
     {
       PalindromeWord testPalindrome = new PalindromeWord();
-      Assert.AreEqual(true, testPalindrome.IsPalindrome("hello"));
+      Assert.AreEqual(true, testPalindrome.IsPalindrome("noon"));
+    }
+    [TestMethod]
+    public void IsPalindrom_AWord_False()
+    {
+      PalindromeWord testPalindrome = new PalindromeWord();
+      Assert.AreEqual(false, testPalindrome.IsPalindrome("hello"));
     }
   }
 }
